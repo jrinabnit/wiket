@@ -8,6 +8,6 @@ This is a landing page built with React and styled components.
 
 ### Screenshot
 
-![](./public/desktop%20view%20screenshot.png.)
+![](./public/desktop-view.png)
 
-![](./public/mobile%20view%20screenshot.png.)
+![](./public/mobile-view.png)
