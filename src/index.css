@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: Spoof Trial;
+  src: url("./assets/fonts/SpoofTrial/SpoofTrial-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: Faible;
+  src: url("./assets/fonts/Faible/Faible-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: Cera Pro;
+  src: url("./assets/fonts/CeraProSv/Cera\ Pro\ Medium.otf") format('opentype');
+}
+
