@@ -1,10 +1,16 @@
 import React from 'react'
+import { motion} from 'framer-motion'
 import { CtaButton, NavContainer, Link, LinksContainer, LogoContainer, HamburgerMenu} from './Nav.styles'
 import { ReactComponent as Logo } from '../../assets/svg/wiket-logo.svg';
+import { showSecondVariants } from '../../Animations'
 
 const Nav = ()=> {
     return (
-        <NavContainer>
+        <NavContainer 
+                as={motion.div} 
+                variants={showSecondVariants}
+                initial='hidden'
+                animate='visible'>
             <LogoContainer to='/'>
                 <Logo className='logo'/>
             </LogoContainer>

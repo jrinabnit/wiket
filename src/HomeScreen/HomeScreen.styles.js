@@ -71,7 +71,9 @@ export const Copy = styled.p`
     left: 120px;
     top: 440px;
 
-    @media(max-width: 900px){
+    @media(max-width: 900px)
+
+    {
         position: unset;
         margin-top: 24px;
     }
